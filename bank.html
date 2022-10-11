@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--start main part of account -->
+   <div class="container">
+    <div class="row">
+        <h1 class="fs-3 fw-bolder text-center my-3"> Lets Get Some <span class="text-info">Mooooooney</span> !!!!</h1>
+        <div class="col-md-4 col-sm-12">
+            <div class="deposit text-white mb-2">
+                <div>
+                    <h1 class="fs-3 fw-bolder">Deposit</h1>
+                    <h1 class="fs-4 fw-bold">$<span id="deposit-dolar">00</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="withdraw text-white mb-2">
+                <div>
+                    <h1 class="fs-3 fw-bolder">Withdraw</h1>
+                    <h1 class="fs-4 fw-bold">$<span id="withdraw-dolar">00</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="balance text-white mb-2">
+                <div>
+                    <h1 class="fs-3 fw-bolder">Balance</h1>
+                    <h1 class="fs-4 fw-bold">$<span id="balance-dolar">1200</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+<!--end main part of account -->
+<!-- start input part -->
+<div class="container my-3">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+           <div class="please-deposit mb-2">
+            <div>
+                <h1 class="fs-4 fw-bolder text-white">Pleae Deposit</h1>
+                <input class="py-2 px-2 border-0 rounded-2 d-block mb-2 w-75" type="text" placeholder="$ another you want to deposit" id="deposit-field">
+               <a href="#" class="common-button">
+                <button id="deposit-btn" class="py-1 px-3 rounded-2 border-0 fs-4 fw-bolder">Deposit</button>
+               </a>
+            </div>
+           </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="please-withdraw mb-2">
+                <div>
+                    <h1 class="fs-4 fw-bolder text-white">Pleae Withdraw</h1>
+                    <input class="py-2 px-2 border-0 rounded-2 d-block mb-2 w-75" type="text" placeholder="$ another you want to withdraw" id="withdraw-field">
+                   <a href="#" class="common-button">
+                    <button id="withdraw-btn" class="py-1 px-3 rounded-2 border-0 fs-4 fw-bolder">Withdraw</button>
+                   </a>
+                </div>
+               </div>
+        </div>
+    </div>
+</div>
+<!-- end input part -->
+<!-- mugics part  -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <div class="main-container-sound">
+            <div class="d-flex justify-content-center">
+            <a href="#" class="common-button">
+            <button class="fs-4 fw-bolder border-0 rounded-3 py-2 px-3 m-1" onclick="chap()"> Audio </button>
+            <button class="fs-4 fw-bolder border-0 rounded-3 py-2 px-3 m-1" onclick="toggleControls();">Video</button> </a>
+            <button class="fs-4 fw-bolder border-0 rounded-3 py-2 px-3 m-1"><a href="https://cutt.ly/KBvc5wn" class="text-decoration-none text-black common-button">Youtube</a></button>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<!-- foxi code -->
+<div class="container my-3">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class=" text-center">
+                <video id="myvideo" height="200px" width="350px">
+                    <source src="sound/jotovul.mp4" />
+                  </video>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- foxi code end -->
+    <script src="js/bank.js"></script>
+</body>
+</html>

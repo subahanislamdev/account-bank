@@ -1,0 +1,59 @@
+/* login form start */
+.main-container{
+    background-image: linear-gradient(to bottom right ,yellow,tomato);
+    padding: 15px;
+    border-radius: 15px;
+    width: 75%;
+    opacity: .7;
+}
+.main-container-sound{
+    background-image: linear-gradient(to bottom right ,yellow,tomato);
+    padding: 15px;
+    border-radius: 15px;
+    opacity: .7;
+}
+.submit-btn :hover{
+ background-color: red !important;
+ color: whitesmoke;
+ opacity: .7;
+ transition: ease-in 2s;
+}
+/* login form end */
+/* start deposit , withdraw and balance part */
+.deposit{
+    background-color: forestgreen;
+    padding: 22px;
+    border-radius: 10px;
+    opacity: .8;
+}
+.withdraw{
+    background-color: #E6425E;
+    padding: 22px;
+    border-radius: 10px;
+    opacity: .8;
+}
+.balance{
+    background-color: #FF6263;
+    padding: 22px;
+    border-radius: 10px;
+    opacity: .8;
+}
+/* end deposit , withdraw and balance part */
+/* withdrae part */
+.please-deposit{
+    background-color: #1B98F5;
+    padding: 20px;
+    border-radius: 10px;
+}
+.please-withdraw{
+    background-color: #1B98F5;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: .7;
+}
+/* common button */
+.common-button :hover{
+    background-color: #FF6263;
+    color: whitesmoke;
+    transition: ease-in-out 2s;
+}
